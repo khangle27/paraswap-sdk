@@ -57,7 +57,7 @@ export const DEXS: { [dex: string]: typeof Adapter } = {
   nerve: Nerve,
   saddle: Nerve,
   uniswapv3: UniswapV3,
-  onebit: OneBit,
+  omm1: OneBit,
 };
 
 export function getDEX(dex: string): typeof Adapter {
